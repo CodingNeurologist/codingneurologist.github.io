@@ -1,0 +1,240 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  min-width: 1060px;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-family: "Roboto", "Avenir", sans-serif;
+}
+
+a {
+  text-decoration: none;
+} /* header */
+.header {
+  background: #0c4b33;
+  height: 72px;
+  padding: 15px 0 4px;
+}
+
+.container {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.logo {
+  position: absolute;
+  padding-left: inherit;
+  top: 0;
+  left: 10;
+  color: white;
+  font-size: 36px;
+  width: 104px;
+  height: 36px;
+  margin: 0;
+}
+
+.nav {
+  text-align: right;
+}
+
+.list {
+  font-size: 0;
+}
+.list-item {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.list-item > a {
+  color: white;
+  display: block;
+  padding: 10px;
+}
+
+.list-item > a:hover {
+  color: green;
+}
+
+/* MAIN */
+
+.hero-section {
+  text-align: center;
+  padding: 50px 0;
+  border-bottom: 1px solid #cfe3dc;
+}
+
+.intro-desc {
+  display: block;
+  margin: 50px auto 60px;
+  width: 700px;
+  font-size: 3.6rem;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.cta {
+  color: white;
+  width: 300px;
+  margin: 0 auto 60px;
+  display: block;
+  padding: 20px 50px;
+  border-radius: 8px;
+  background: #44b78b;
+}
+
+.cta:hover {
+  background: green;
+}
+
+.main-contents {
+  float: left;
+  width: 70%;
+  border-right: 1px solid #cfe3dc;
+  display: block;
+  padding: 20px 20px;
+}
+
+.side-contents {
+  float: right;
+  width: 30%;
+}
+
+.main-title {
+  font-size: 3.2rem;
+  font-weight: 400;
+  letter-spacing: -1.5px;
+}
+
+.mailing1 {
+  float: left;
+  width: 50%;
+  display: block;
+  padding: 0 10px;
+}
+
+.mailing2 {
+  float: right;
+  width: 50%;
+  display: block;
+  padding: 0 10px;
+}
+
+.mailing-form {
+  margin: 10px 0 30px;
+  position: relative;
+}
+
+.mailing-form > label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+}
+
+input[type="email"] {
+  width: 100%;
+  border: 1px solid #cfe3dc;
+  border-radius: 4px;
+  height: 5rem;
+  padding: 6px 90px 8px 10px;
+}
+
+.mailing-form-btn {
+  position: absolute;
+  top: 30%;
+  right: 10px;
+  background: transparent;
+  border: 0;
+  color: #44b78b;
+  cursor: pointer;
+}
+.mailing-title > a {
+  color: #44b78b;
+}
+
+.mailing-title > a:hover {
+  color: #8ef1cb;
+}
+.mailing-desc {
+  font-size: 1.2rem;
+}
+
+.mailing-desc > a {
+  color: #44b78b;
+}
+
+/* Sidecontent */
+
+.side-contents > a:hover {
+  color: white;
+}
+.cta2 {
+  color: white;
+  font-size: 1.5rem;
+  width: 300px;
+  margin: 30px auto 10px auto;
+  display: block;
+  padding: 20px 10px;
+  border-radius: 8px;
+  background: #44b78b;
+  text-align: center;
+}
+
+.docu {
+  color: #44b78b;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto 50px auto;
+  display: block;
+  text-transform: uppercase;
+}
+.more {
+  color: #44b78b;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.side-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-bottom: 1px solid #cfe3dc;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.news-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #44b78b;
+}
+
+.news-sum {
+  font-size: 1.3rem;
+}
+
+.cites,
+.involved-content {
+  font-size: 1.1rem;
+  color: lightgray;
+}
+
+.involved-title {
+  font-size: 1.3rem;
+  color: #44b78b;
+  line-height: 1;
+}
